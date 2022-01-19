@@ -1,0 +1,312 @@
+:root {
+    /*SIZES*/
+    --size-Mobile: 375px;
+    --size-Desktop: 1440px;
+
+    /*PRIMARY COLORS*/
+    --color-Pink: hsl(322, 100%, 66%);
+    --color-Light-Pink: hsl(321, 100%, 78%);
+    --color-Light-Red: hsl(0, 100%, 63%);
+
+    /*NEUTRAL COLORS*/
+    --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --color-Very-Pale-Blue: hsl(207, 100%, 98%);
+
+    /*
+    font-family: 'Open Sans', sans-serif;   texts
+    font-family: 'Poppins', sans-serif;     titles
+    */
+}
+
+/*################################# GENERALES  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif; /* texts*/
+}
+
+/*################################# BODY  */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/*################################# CONTAINER  */
+
+#container {
+    width: 375px;
+    padding: 0px;
+    /* padding: 30px 27px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+/*################################# NAV  */
+
+#nav {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#nav-logo {
+    width: 30%;
+}
+#nav-logo img {
+    width: 100%;
+}
+#nav-button {
+    width: 83px;
+    height: 23px;
+    color: var(--color-Light-Pink);
+    background-color: white;
+    border: 1px solid var(--color-Pink);
+    border-radius: 20px;
+}
+
+/*################################# HEADER  */
+
+#header {
+    width: 90%;
+    margin-bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.page-text {
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.rounded-button {
+    width: 200px;
+    height: 41px;
+    color: white;
+    background-color: var(--color-Pink);
+    border: none;
+    border-radius: 20px;
+}
+
+/*################################# STATS  */
+
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.page-image {
+    width: 80%;
+    margin-bottom: 90px;
+}
+.page-image > img {
+    width: 100%;
+}
+.page-title {
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 22px;
+}
+#stats {
+    background: url(images/bg-section-top-mobile-1.svg) 0px 100% no-repeat;
+}
+#stats-stats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 145px;
+}
+.stats-card {
+    width: 156px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#messages {
+    margin-bottom: 0px;
+}
+.stats-icons {
+    width: 29px;
+}
+.stats-icons > img {
+    width: 100%;
+}
+.stats-numbers {
+    font-size: 3.7rem;
+    font-weight: bold;
+}
+.stats-description {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+/*################################# GROW  */
+#grow {
+    background-color: var(--color-Very-Pale-Blue);
+}
+#grow-image {
+    margin-top: 80px;
+}
+#grow-text {
+    margin-bottom: 47px;
+}
+
+/*################################# FLOWING  */
+#flowing {
+    background: url(images/bg-section-bottom-mobile-1.svg) 0px 0px no-repeat,
+        url(images/bg-section-top-mobile-2.svg) 0px 100% no-repeat;
+}
+#flowing-image {
+    margin-top: 170px;
+}
+#flowing-text {
+    margin-bottom: 223px;
+}
+/*################################# USERS  */
+#users {
+    margin-bottom: 0px;
+    background-color: var(--color-Very-Pale-Blue);
+}
+/*################################# READY  */
+#ready {
+    width: 100%;
+    margin-bottom: 0px;
+    background: url(images/bg-section-bottom-mobile-2.svg) 0px 0px no-repeat,
+        url(images/bg-footer-top-mobile.svg) 0px 100% no-repeat;
+}
+#users-image {
+    margin-top: 18px;
+}
+#ready-title {
+    font-size: 1.5rem;
+    margin-top: 200px;
+    margin-bottom: 42px;
+}
+#ready-button {
+    margin-bottom: 310px;
+}
+/*################################# FOOTER  */
+/*---------------   NEWS   */
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-Very-Dark-Cyan);
+    color: white;
+}
+#footer-news {
+    width: 90%;
+    margin-bottom: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#footer-news-title {
+    font-size: 1.3rem;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.footer-text {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+}
+#footer-news-fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#footer-news-fields > input {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 16px;
+    border-radius: 7px;
+    border: none;
+}
+#footer-news-fields > button {
+    align-self: flex-end;
+    width: 160px;
+    height: 49px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--color-Pink);
+    border: none;
+    border-radius: 7px;
+}
+#footer-huddle {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+#footer-huddle-image {
+    width: 200px;
+    height: 36px;
+    margin-bottom: 20px;
+}
+#footer-huddle-image > img {
+    width: 100%;
+}
+#footer-networks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+.footer-icons-bar {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 0.9rem;
+}
+#email {
+    margin-bottom: 50px;
+}
+.footer-icons-bar > img {
+    margin-right: 20px;
+}
+#icons > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+/*################################# ATTRIBUTION  */
