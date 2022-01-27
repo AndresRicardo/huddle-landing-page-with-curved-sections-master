@@ -1,0 +1,345 @@
+@media screen and (orientation: landscape) and (min-width: 376px) {
+    :root {
+        /*PRIMARY COLORS*/
+        --color-Pink: hsl(322, 100%, 66%);
+        --color-Light-Pink: hsl(321, 100%, 78%);
+        --color-Light-Red: hsl(0, 100%, 63%);
+
+        /*NEUTRAL COLORS*/
+        --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
+        --color-Very-Pale-Blue: hsl(207, 100%, 98%);
+    }
+
+    /*################################# CONTAINER  */
+
+    #container {
+        width: 100%;
+        /* padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        background-color: yellowgreen;*/
+    }
+
+    /*################################# NAV  */
+
+    #nav {
+        width: 80%;
+        margin-top: 78px;
+        margin-bottom: 247px;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: flex-start; */
+    }
+    #nav-logo {
+        width: 240px;
+    }
+    #nav-logo img {
+        width: 100%;
+    }
+    #nav-button {
+        width: 140px;
+        height: 40px;
+        color: var(--color-Light-Pink);
+        background-color: white;
+        border: 1px solid var(--color-Pink);
+        border-radius: 20px;
+    }
+
+    /*################################# HEADER  */
+
+    #header {
+        width: 80%;
+        margin-bottom: 105px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; */
+    }
+    #header-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .page-text {
+        width: 90%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #header-text {
+        width: 50%;
+        margin-bottom: 50px;
+        font-size: 1.3rem;
+    }
+    .rounded-button {
+        width: 27%;
+        height: 78px;
+        font-size: 1rem;
+        font-weight: bold;
+        /* color: white;
+        background-color: var(--color-Pink);
+        border: none; */
+        border-radius: 40px;
+    }
+
+    /*################################# STATS  */
+
+    .page {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #stats {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(images/bg-section-top-desktop-1.svg) 0px 100% no-repeat;
+    }
+    .page-image {
+        width: 40%;
+        margin-bottom: 90px;
+        order: 1;
+    }
+    .page-image > img {
+        width: 100%;
+    }
+    #stats-image {
+        width: 80%;
+    }
+    .page-text-content {
+        width: 40%;
+        text-align: left;
+    }
+    .page-text {
+        text-align: left;
+        color: grey;
+    }
+    .page-title {
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-size: 2.4rem;
+        margin-bottom: 22px;
+    }
+    #stats-stats {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 310px;
+    }
+    .stats-card {
+        width: 156px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #communities {
+        margin-bottom: 0px;
+    }
+    #messages {
+        margin-bottom: 0px;
+    }
+    .stats-icons {
+        width: 45px;
+    }
+    .stats-icons > img {
+        width: 100%;
+    }
+    .stats-numbers {
+        font-size: 6rem;
+        font-weight: bold;
+    }
+    .stats-description {
+        font-size: 1.5rem;
+        color: grey;
+    }
+
+    /*################################# GROW  */
+    #grow {
+        background-color: var(--color-Very-Pale-Blue);
+    }
+    #grow-image {
+        margin-top: 80px;
+    }
+    #grow-text {
+        margin-bottom: 47px;
+    }
+
+    /*################################# FLOWING  */
+    #flowing {
+        background: url(images/bg-section-bottom-desktop-1.svg) 0px 0px
+                no-repeat,
+            url(images/bg-section-top-desktop-2.svg) 0px 100% no-repeat;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #flowing-image {
+        margin: 170px auto;
+    }
+    #flowing-text-content {
+        margin: auto;
+
+        order: 1;
+    }
+    #flowing-text {
+        margin-bottom: auto;
+    }
+    /*################################# USERS  */
+    #users {
+        margin-bottom: 0px;
+        background-color: var(--color-Very-Pale-Blue);
+    }
+    #users-image {
+        margin-top: 18px;
+    }
+    #users-text-container {
+    }
+    /*################################# READY  */
+    #ready {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 870px;
+        margin-bottom: 0px;
+        background: url(images/bg-section-bottom-desktop-2.svg) 0px 0px
+                no-repeat,
+            url(images/bg-footer-top-desktop.svg) 0px 100% no-repeat;
+    }
+    #ready-title {
+        font-size: 2rem;
+        margin-top: 200px;
+        margin-bottom: 42px;
+    }
+    #ready-button {
+        margin-bottom: 310px;
+    }
+    /*################################# FOOTER  */
+    /*---------------   NEWS   */
+    #footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: var(--color-Very-Dark-Cyan);
+        color: white;
+        padding-top: 70px;
+    }
+    #footer-news {
+        width: 37%;
+        margin: auto;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        order: 1;
+    }
+    #footer-news-title {
+        font-size: 1.3rem;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .footer-text {
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+        width: 70%;
+    }
+    #footer-news-fields {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer-news-fields > input {
+        width: 60%;
+        height: 48px;
+        margin: auto;
+        margin-left: 0px;
+        border: none;
+    }
+    #footer-news-fields > button {
+        align-self: flex-end;
+        width: 30%;
+        height: 49px;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: var(--color-Pink);
+        border: none;
+        border-radius: 7px;
+    }
+    #footer-huddle {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+        margin: auto;
+    }
+    #footer-huddle-image {
+        width: 200px;
+        height: 36px;
+        margin-bottom: 20px;
+    }
+    #footer-huddle-image > img {
+        width: 100%;
+    }
+    #footer-networks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+    }
+    .footer-icons-bar {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        font-size: 0.9rem;
+    }
+    #email {
+        margin-bottom: 50px;
+    }
+    .footer-icons-bar > img {
+        margin-right: 20px;
+    }
+    #icons > a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+    /*################################# ATTRIBUTION  */
+
+    #attribution {
+        /* margin: 0px; */
+        font-size: 11px;
+        text-align: center;
+        color: white;
+        align-self: flex-start;
+    }
+    #attribution > #attribution-text > a {
+        color: white;
+    }
+}

@@ -15,21 +15,11 @@
     rel="stylesheet">
 
   <link href="/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
   <script src="https://kit.fontawesome.com/c58cece310.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="styles.css">
-
-
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -72,31 +62,38 @@
       <div id="grow-image" class="page-image"><img src="images/illustration-grow-together.svg" alt="grow together">
       </div>
 
-      <h2 id="grow-title" class="page-title">Grow Together</h2>
+      <div id="grow-text-content" class="page-text-content">
+        <h2 id="grow-title" class="page-title">Grow Together</h2>
 
-      <p id="grow-text" class="page-text">Generate meaningful discussions with your audience and build a strong, loyal
-        community.
-        Think of the insightful conversations you miss out on with a feedback form.</p>
+        <p id="grow-text" class="page-text">Generate meaningful discussions with your audience and build a strong, loyal
+          community.
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
     </section>
 
     <section id="flowing" class="page">
       <div id="flowing-image" class="page-image"><img src="images/illustration-flowing-conversation.svg"
           alt="Flowing Conversations"></div>
 
-      <h2 id="flowing-title" class="page-title">Flowing Conversations</h2>
+      <div class="page-text-content" id="flowing-text-content">
+        <h2 id="flowing-title" class="page-title">Flowing Conversations</h2>
 
-      <p id="flowing-text" class="page-text">You wouldn't paginate a conversation in real life, so why do it online? Our
-        threads have
-        just-in-time loading for a more natural flow.</p>
+        <p id="flowing-text" class="page-text">You wouldn't paginate a conversation in real life, so why do it online?
+          Our
+          threads have
+          just-in-time loading for a more natural flow.</p>
+      </div>
     </section>
 
     <section id="users" class="page">
       <div id="users-image" class="page-image"><img src="images/illustration-your-users.svg" alt="your users"></div>
 
-      <h2 id="users-title" class="page-title">Your Users</h2>
+      <div id="users-text-container" class="page-text-content">
+        <h2 id="users-title" class="page-title">Your Users</h2>
 
-      <p id="users-text" class="page-text">It takes no time at all to integrate Huddle with your app's authentication
-        solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        <p id="users-text" class="page-text">It takes no time at all to integrate Huddle with your app's authentication
+          solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
     </section>
 
     <section id="ready" class="page">
@@ -148,10 +145,10 @@
   </div>
 
 
-  <div id="attibution">
-    <p class="attribution">
+  <div id="attribution">
+    <p id="attribution-text">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/AndresRicardo">Richi</a>.
     </p>
   </div>
 </body>

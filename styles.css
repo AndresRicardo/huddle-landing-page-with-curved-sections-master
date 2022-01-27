@@ -75,6 +75,10 @@ body {
     border: 1px solid var(--color-Pink);
     border-radius: 20px;
 }
+#nav-button:hover {
+    border-color: var(--color-Light-Pink);
+    cursor: pointer;
+}
 
 /*################################# HEADER  */
 
@@ -109,6 +113,10 @@ body {
     background-color: var(--color-Pink);
     border: none;
     border-radius: 20px;
+}
+.rounded-button:hover {
+    background-color: var(--color-Light-Pink);
+    cursor: pointer;
 }
 
 /*################################# STATS  */
@@ -313,3 +321,18 @@ body {
     margin-right: 15px;
 }
 /*################################# ATTRIBUTION  */
+
+#attribution {
+    /* margin: 0px; */
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    align-self: flex-start;
+}
+#attribution > #attribution-text > a {
+    color: white;
+}
+
+/*####################################################*/
+/*      ###########  MEDIA QUERIES  ###########       */
+/*####################################################*/
